@@ -1,20 +1,20 @@
+import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
-// import { About } from './components/About';
 import { Menu } from './components/Menu';
+import { About } from './components/About';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <main className="min-h-screen bg-stone-50 selection:bg-amber-200 selection:text-amber-900">
-      {/* Navigasi / Header bisa diletakkan di sini */}
-      
-      <Hero />
-      <Menu />
-
-      {/* 
-        Komponen section selanjutnya akan di-render di bawah Hero 
+      <Navbar />
+      <div className="grow">
+        <Hero />
+        <Menu />
         <About />
-        <Footer />
-      */}
+      </div>
+
+      <Footer />
     </main>
   );
 }

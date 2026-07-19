@@ -47,11 +47,11 @@ const menuData: MenuCategory[] = [
   {
     category: "Satja To Go",
     items: [
-      { id: "stg1", name: "To Go Satja Atas", description: "Perpaduan matcha premium dengan susu segar yang creamy.", price: 30000,imageUrl: "/assets/matcha.webp" },
-      { id: "stg2", name: "To Go Satja Bawah", description: "Rasa ubi ungu taro yang manis diblend dengan susu.", price: 28000,imageUrl: "/assets/taro.webp" },
-      { id: "stg3", name: "To Go Satja Applecano", description: "Karakteristik rasa kue red velvet dalam balutan minuman dingin.", price: 28000,imageUrl: "/assets/red-velvet.webp" },
-      { id: "stg4", name: "To Go Satja Matcha", description: "Rasa tiramisu dalam balutan minuman dingin.", price: 28000,imageUrl: "/assets/tiramisu.webp" },
-      { id: "stg5", name: "To Go Satja Early Grey Milk Tea", description: "Teh early grey wangi berpadu dengan susu creamy.", price: 28000,imageUrl: "/assets/early-grey-milk-tea.webp" },
+      { id: "stg1", name: "To Go Satja Atas", description: "Perpaduan matcha premium dengan susu segar yang creamy.", price: 30000,imageUrl: "/assets/to-go-satja-atas.webp" },
+      { id: "stg2", name: "To Go Satja Bawah", description: "Rasa ubi ungu taro yang manis diblend dengan susu.", price: 28000,imageUrl: "/assets/to-go-satja-bawah.webp" },
+      { id: "stg3", name: "To Go Satja Applecano", description: "Karakteristik rasa kue red velvet dalam balutan minuman dingin.", price: 28000,imageUrl: "/assets/to-go-applecano.webp" },
+      { id: "stg4", name: "To Go Satja Matcha", description: "Rasa tiramisu dalam balutan minuman dingin.", price: 28000,imageUrl: "/assets/to-go-matcha.webp" },
+      { id: "stg5", name: "To Go Satja Early Grey Milk Tea", description: "Teh early grey wangi berpadu dengan susu creamy.", price: 28000,imageUrl: "/assets/to-go-early-grey-milk-tea.webp" },
     ]
   },
   {
@@ -77,7 +77,7 @@ const formatRupiah = (price: number) => {
 
 export const Menu: React.FC = () => {
   return (
-    <section className="py-20 bg-stone-50 text-stone-800">
+    <section id="menu" className="py-20 bg-stone-50 text-stone-800">
       <div className="max-w-6xl mx-auto px-4 md:px-8">
         
         {/* Header Section */}

@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Hero: React.FC = () => {
   return (
-    <section className="relative w-full h-screen bg-stone-900 flex items-center justify-center text-white">
+    <section id="hero" className="relative w-full h-screen bg-stone-900 flex items-center justify-center text-white">
       {/* Background Image dengan Overlay */}
       <div className="absolute inset-0 overflow-hidden">
         <img 
