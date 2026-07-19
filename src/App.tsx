@@ -1,6 +1,6 @@
 import { Hero } from './components/Hero';
 // import { About } from './components/About';
-// import { Menu } from './components/Menu';
+import { Menu } from './components/Menu';
 
 function App() {
   return (
@@ -8,11 +8,11 @@ function App() {
       {/* Navigasi / Header bisa diletakkan di sini */}
       
       <Hero />
-      
+      <Menu />
+
       {/* 
         Komponen section selanjutnya akan di-render di bawah Hero 
         <About />
-        <Menu />
         <Footer />
       */}
     </main>
